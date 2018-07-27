@@ -1,0 +1,25 @@
+@import "../../styles/colors";
+
+.Menu {
+  list-style-type: none;
+
+  &-Link {
+    margin: 10px 0;
+    display: block;
+    font-size: 1.12rem;
+
+    &,
+    &:hover,
+    &:visited {
+      color: $black;
+    }
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .Menu {
+    &-Link {
+      font-size: 1rem;
+    }
+  }
+}

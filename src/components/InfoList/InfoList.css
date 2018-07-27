@@ -1,0 +1,15 @@
+.InfoList {
+  margin-bottom: 30px; }
+  .InfoList-List {
+    margin-left: 10px; }
+  .InfoList-Item {
+    margin: 6px 0; }
+  .InfoList-Link {
+    color: #02633f; }
+  .InfoList-Icon {
+    color: #02633f;
+    margin-right: 7px; }
+
+@media screen and (max-width: 360px) {
+  .InfoList-Link {
+    font-size: .95rem; } }

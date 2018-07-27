@@ -1,0 +1,33 @@
+{
+  "name": "Сведения о приеме",
+  "docs": [
+    {
+      "text": "Список лиц, подавших документы, необходимые для поступления",
+      "link": "http://vgsha.info/attachments/exam/ListForSite.htm"
+    },
+    {
+      "text": "Очная форма, бюджет",
+      "link": "http://vgsha.info/attachments/exam/ob.xls"
+    },
+    {
+      "text": "очная форма, внебюджет",
+      "link": "http://vgsha.info/attachments/exam/ovb.xls"
+    },
+    {
+      "text": "заочная форма, бюджет",
+      "link": "http://vgsha.info/attachments/exam/zb.xls"
+    },
+    {
+      "text": "заочная форма, внебюджет",
+      "link": "http://vgsha.info/attachments/exam/zvb.xls"
+    },
+    {
+      "text": "очно-заочная форма, бюджет",
+      "link": "http://vgsha.info/attachments/exam/ozb.xls"
+    },
+    {
+      "text": "очно-заочная форма, внебюджет",
+      "link": "http://vgsha.info/attachments/exam/ozvb.xls"
+    }
+  ]
+}

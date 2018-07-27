@@ -1,0 +1,12 @@
+.Menu {
+  list-style-type: none; }
+  .Menu-Link {
+    margin: 10px 0;
+    display: block;
+    font-size: 1.12rem; }
+    .Menu-Link, .Menu-Link:hover, .Menu-Link:visited {
+      color: #000000; }
+
+@media screen and (max-width: 724px) {
+  .Menu-Link {
+    font-size: 1rem; } }

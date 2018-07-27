@@ -1,0 +1,62 @@
+@import "../../../styles/colors";
+
+.Select {
+  position: relative;
+  text-align: center;
+  min-width: 220px;
+  width: 220px;
+  margin: 10px 0;
+  color: $white;
+
+  &-Items {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    border-radius: 3px;
+    background-color: $light_green;
+    z-index: 100;
+  }
+
+  &-Item,
+  &-Choosen  {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  &-Choosen {
+    border-radius: 3px;
+    background-color: $light_green;
+  }
+
+  &-Item {
+    transition: background-color .2s ease;
+
+    &:hover {
+      background-color: $dark_green;
+    }
+  }
+}
+
+.selectAnimate {
+  &-enter {
+  opacity: 0.01;
+  transform: translateX(50px);
+
+    &-active {
+      opacity: 1;
+      transform: scale(1) translateX(0);
+      transition: all 300ms ease;
+    }
+  }
+
+&-exit {
+  opacity: 1;
+  transform: translateY(0);
+
+    &-active {
+      opacity: 0.01;
+      transform: translateX(50px);
+      transition: all 300ms ease;
+    }
+  }
+}

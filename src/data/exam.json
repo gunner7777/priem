@@ -1,0 +1,31 @@
+{
+  "name": "Результаты вступительных испытаний",
+  "examins": [
+    {
+      "name": "12.07.2017",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2017/results/biology_12.07.2017.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2017/results/maths_12.07.2017.pdf",
+          "text": "Математика"
+        }
+      ]
+    },
+    {
+      "name": "15.07.2017",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2017/results/russkii_15.07.2017.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2017/results/maths_15.07.2017.pdf",
+          "text": "Математика"
+        }
+      ]
+    }
+  ]
+}

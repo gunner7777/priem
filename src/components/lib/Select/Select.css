@@ -1,0 +1,40 @@
+.Select {
+  position: relative;
+  text-align: center;
+  min-width: 220px;
+  width: 220px;
+  margin: 10px 0;
+  color: #ffffff; }
+  .Select-Items {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #65bb9b;
+    z-index: 100; }
+  .Select-Item, .Select-Choosen {
+    padding: 10px 15px;
+    cursor: pointer; }
+  .Select-Choosen {
+    border-radius: 3px;
+    background-color: #65bb9b; }
+  .Select-Item {
+    transition: background-color .2s ease; }
+    .Select-Item:hover {
+      background-color: #26905c; }
+
+.selectAnimate-enter {
+  opacity: 0.01;
+  transform: translateX(50px); }
+  .selectAnimate-enter-active {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+    transition: all 300ms ease; }
+
+.selectAnimate-exit {
+  opacity: 1;
+  transform: translateY(0); }
+  .selectAnimate-exit-active {
+    opacity: 0.01;
+    transform: translateX(50px);
+    transition: all 300ms ease; }

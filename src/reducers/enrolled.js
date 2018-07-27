@@ -1,0 +1,312 @@
+import {
+  GET_ENROLLED_LIST_SUCCESS,
+  ENROLLED_LIST_IS_LOADING,
+  GET_FAKS_LIST_FOR_ENROLLED,
+  GET_EDU_FORMS_LIST_FOR_ENROLLED,
+  GET_BASE_FOR_ENROLLED,
+  SET_ENROLLED_LIST,
+  ENROLLED_RESET
+} from '../constants/actionTypes';
+
+const initialState = {
+  enrolled: [],
+  grad: [
+    "Бакалавриат",
+    "Магистратура",
+    "Специалитет",
+    "СПО"
+  ],
+  dataGrad: [
+    {
+      graduation: "Бакалавриат",
+      facultet: [
+        {
+          name: "Агрономический",
+          forma: [
+            {
+              name: "Очная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "bak-agro-o-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "bak-agro-o-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "bak-agro-z-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "bak-agro-z-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Очно-заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "bak-agro-oz-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "bak-agro-oz-vb.json"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          name: "Биологический",
+          forma: [
+            {
+              name: "Очная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "bak-bio-o-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "bak-bio-o-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "bak-bio-z-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "bak-bio-z-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Очно-заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "bak-bio-oz-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "bak-bio-oz-vb.json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      graduation: "Магистратура",
+      facultet: [
+        {
+          name: "Агрономический",
+          forma: [
+            {
+              name: "Очная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "mag-agro-o-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "mag-agro-o-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "mag-agro-z-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "mag-agro-z-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Очно-заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "mag-agro-oz-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "mag-agro-oz-vb.json"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          name: "Инженерный",
+          forma: [
+            {
+              name: "Очная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "mag-ing-o-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "mag-ing-o-vb.json"
+                }
+              ]
+            },
+            {
+              name: "Заочная",
+              price: [
+                {
+                  name: "Бюджет",
+                  file: "mag-ing-z-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "mag-ing-z-vb.json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  currFacsSnapshot: [],
+  currFormsSnapshot: [],
+  currBaseSnapshot: [],
+  currGrad: "",
+  currFacs: [],
+  currForms: [],
+  currBase: [],
+  currList: "",
+  isLoading: false
+}
+
+export const enrolled = (state=initialState, action) => {
+  switch(action.type) {
+    case GET_ENROLLED_LIST_SUCCESS:
+      return {
+        ...state,
+        enrolled: action.enrolled
+      }
+
+
+    case ENROLLED_LIST_IS_LOADING:
+      return {
+        ...state,
+        isLoading: action.bool
+      }
+
+
+    case GET_FAKS_LIST_FOR_ENROLLED:
+      const gradInfo = state.dataGrad.filter(item => {
+        if(item.graduation === action.grad) {
+          return item;
+        }
+      });
+
+      const facs = gradInfo[0].facultet.map(item => {
+        return item.name;
+      });
+
+      return {
+        ...state,
+        currFacsSnapshot: gradInfo[0].facultet,
+        currGrad: action.grad,
+        currFacs: facs,
+        currFormsSnapshot: [],
+        currForms: [],
+        currBaseSnapshot: [],
+        currBase: [],
+        currList: ""
+      }
+
+
+    case GET_EDU_FORMS_LIST_FOR_ENROLLED:
+      const facInfo = state.currFacsSnapshot.filter(item => {
+        if(item.name === action.fac) {
+          return item;
+        }
+      });
+
+      const forms = facInfo[0].forma.map(item => {
+        return item.name;
+      });
+
+      return {
+        ...state,
+        currFormsSnapshot: facInfo[0].forma,
+        currForms: forms,
+        currBaseSnapshot: [],
+        currBase: [],
+        currList: ""
+      }
+
+
+    case GET_BASE_FOR_ENROLLED:
+      const baseInfo = state.currFormsSnapshot.filter(item => {
+        if(item.name === action.form) {
+          return item;
+        }
+      });
+
+      const base = baseInfo[0].price.map(item => {
+        return item.name;
+      });
+
+      return {
+        ...state,
+        currBaseSnapshot: baseInfo[0].price,
+        currBase: base,
+        currList: ""
+      }
+
+
+    case SET_ENROLLED_LIST:
+      const enrolledList = state.currBaseSnapshot.filter(item => {
+        if(item.name === action.base) {
+          return item;
+        }
+      });
+
+      return {
+        ...state,
+        currList: enrolledList[0].file
+      }
+
+    case ENROLLED_RESET:
+      return {
+        ...state,
+        currFacsSnapshot: [],
+        currFormsSnapshot: [],
+        currBaseSnapshot: [],
+        currGrad: "",
+        currFacs: [],
+        currForms: [],
+        currBase: [],
+        currList: ""
+      }
+
+    default: return state;
+  }
+}

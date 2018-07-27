@@ -1,0 +1,30 @@
+@import "../../styles/colors";
+
+.InfoList {
+  margin-bottom: 30px;
+
+  &-List {
+    margin-left: 10px;
+  }
+  &-Item {
+    margin: 6px 0;
+  }
+
+  &-Link {
+    color: $dark_dark_green;
+  }
+
+  &-Icon {
+    color: $dark_dark_green;
+    margin-right: 7px;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .InfoList {
+    &-Link {
+      font-size: .95rem;
+    }
+  }
+}
