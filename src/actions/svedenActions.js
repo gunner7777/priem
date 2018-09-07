@@ -3,7 +3,6 @@ import {
   GET_SVEDEN_SUCCESS,
   SVEDEN_IS_LOADING
 } from '../constants/actionTypes';
-//import { infoIsLoading } from './isLoadingActions';
 import { API_URL } from '../constants/config';
 
 export const getSveden = (data) => {

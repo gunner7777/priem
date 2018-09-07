@@ -13,6 +13,10 @@ export const selectId = [
 
 export const menuItems = [
   {
+    name: 'Главная',
+    link: '/'
+  },
+  {
     name: 'Документы приемной комиссии',
     link: '/docs'
   },

@@ -6,6 +6,7 @@ import { konkurs } from './konkurs';
 import { enrolled } from './enrolled';
 import { select } from './select';
 import { menu } from './menu';
+import { viewer } from './viewer';
 
 const rootReducer = combineReducers({
   docs: docs,
@@ -14,7 +15,8 @@ const rootReducer = combineReducers({
   konkurs: konkurs,
   enrolled: enrolled,
   select: select,
-  menu: menu
+  menu: menu,
+  viewer: viewer,
 });
 
 export default rootReducer;

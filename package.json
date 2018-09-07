@@ -26,16 +26,8 @@
     "build": "npm-run-all -p build-css build-js",
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test1": "react-scripts test --env=jsdom --modulePaths=src",
+    "test": "react-scripts test --env=jsdom --modulePaths=src",
     "eject": "react-scripts eject"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./src/__tests__/setup/setupEnzyme.js",
-    "testPathIgnorePatterns": [
-      "./src/__tests__/setup/"
-    ]
   },
   "devDependencies": {
     "prop-types": "^15.6.1"

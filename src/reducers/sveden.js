@@ -15,13 +15,13 @@ export const sveden = (state=initialState, action) => {
         ...state,
         sveden: action.sveden
       }
-    
+
     case SVEDEN_IS_LOADING:
       return {
         ...state,
         isLoading: action.bool
       }
-    
+
     default: return state;
   }
 }

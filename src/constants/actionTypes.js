@@ -30,3 +30,5 @@ export const SET_TARGET_SELECT = "SET_TARGET_SELECT";
 export const CHECK_TARGET_IS_SELECT = "CHECK_TARGET_IS_SELECT";
 
 export const TOGGLE_MENU = "TOGGLE_MENU";
+
+export const VIEW_FILE = "VIEW_FILE";

@@ -21,7 +21,8 @@ const InfoList = props => {
     return (
       <InfoItem
         key={index}
-        link={url}>
+        link={url}
+        getInfo={props.getFileInfo}>
         {doc.text}
       </InfoItem>
     )
@@ -49,7 +50,8 @@ InfoList.propTypes = {
     link: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
   }),
-  version: PropTypes.number
+  version: PropTypes.number,
+  getFileInfo: PropTypes.func,
 }
 
 export default InfoList;
