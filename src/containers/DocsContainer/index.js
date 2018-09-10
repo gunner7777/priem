@@ -24,7 +24,8 @@ class DocsContainer extends Component {
 
   handleClick(e) {
     const fileInfo = {
-      path:e.target.dataset.link,
+      path: e.target.dataset.link,
+      name: e.target.innerHTML
     }
 
     this.props.viewFile(fileInfo);

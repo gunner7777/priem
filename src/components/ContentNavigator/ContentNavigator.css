@@ -1,7 +1,0 @@
-.ContentNavigator {
-  flex: 1 1 70%;
-  padding: 30px 15px 0; }
-
-@media screen and (max-width: 500px) {
-  .ContentNavigator {
-    flex: 1 0 100%; } }

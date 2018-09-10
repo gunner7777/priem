@@ -4,7 +4,8 @@ import {
 
 const initialState = {
   fileInfo: {
-    path: '#'
+    path: '#',
+    name: '',
   }
 }
 
