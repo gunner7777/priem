@@ -8,6 +8,7 @@ import InfoList from '../../components/InfoList';
 import { randomVersion } from '../../util/vers-random';
 import Typography from '../../components/lib/Typography';
 
+
 class DocsContainer extends Component {
   constructor() {
     super();
@@ -17,15 +18,16 @@ class DocsContainer extends Component {
 
   componentDidMount() {
     this.props.fetchData({
-      id: "docs",
-      filename: ""
+      id: 'docs',
+      filename: ''
     });
   }
 
   handleClick(e) {
     const fileInfo = {
       path: e.target.dataset.link,
-      name: e.target.innerHTML
+      name: e.target.innerHTML,
+      type: 'application/pdf'
     }
 
     this.props.viewFile(fileInfo);
@@ -42,8 +44,8 @@ class DocsContainer extends Component {
     return (
       <div>
         <Typography
-          variant="title"
-          tag="h3" >
+          variant='title'
+          tag='h3' >
           Документы приемной комиссии
         </Typography>
         <InfoList

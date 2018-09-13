@@ -2,11 +2,12 @@
 
 .Select {
   position: relative;
-  text-align: center;
   min-width: 220px;
-  width: 220px;
+  width: 300px;
   margin: 10px 0;
   color: $white;
+  font-weight: 600;
+  font-size: 1.2rem;
 
   &-Items {
     width: 100%;
@@ -19,7 +20,7 @@
 
   &-Item,
   &-Choosen  {
-    padding: 10px 15px;
+    padding: 20px 15px;
     cursor: pointer;
   }
 

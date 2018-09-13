@@ -8,28 +8,28 @@ import './Header.css';
 const Header = (props) => {
   const icon = !props.showMenu ? faBars : faArrowLeft;
   return (
-    <div className="Header Flex Flex-JcFs Flex_AiC">
-      <div className="Header-MenuOuter">
+    <div className='Header Flex Flex-JcFs Flex_AiC'>
+      <div className='Header-MenuOuter'>
         <CSSTransition
           in={props.showMenu}
           timeout={250}
-          classNames="IconAnimate"
+          classNames='IconAnimate'
           //unmountOnExit
         >
           <FontAwesomeIcon
             icon={icon}
-            className="Header-Menu"
+            className='Header-Menu'
             onClick={props.handleClick}
           />
         </CSSTransition>
       </div>
-      <div className="Header-Title">
+      <div className='Header-Title'>
         <Typography
-          variant="title"
-          tag="h1"
-          modClass="Typography_NoMargin Typography_Header"
+          variant='title'
+          tag='h1'
+          modClass='Typography_NoMargin Typography_Header'
         >
-          Приемная комиссия Вятской ГСХА
+          Информационный стенд Вятской ГСХА
         </Typography>
       </div>
     </div>

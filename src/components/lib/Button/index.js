@@ -12,7 +12,7 @@ props:
 */
 
 const Button = props => {
-  const additionalClassName = props.modClass !== undefined ? ` ${props.modClass}` : "";
+  const additionalClassName = props.modClass !== undefined ? ` ${props.modClass}` : '';
   return (
     <button
       type='button'

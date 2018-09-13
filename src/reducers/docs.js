@@ -15,7 +15,7 @@ export const docs = (state=initialState, action) => {
         ...state,
         docs: action.docs
       }
-    
+
     case DOCS_IS_LOADING:
       return {
         ...state,

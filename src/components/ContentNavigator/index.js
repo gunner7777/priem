@@ -7,9 +7,8 @@ import Contacts from '../Contacts';
 import Home from '../Home';
 import KonkursContainer from '../../containers/KonkursContainer';
 import EnrolledContainer from '../../containers/EnrolledContainer';
-import Viewer from '../Viewer';
+import ViewerContainer from '../../containers/ViewerContainer';
 import './ContentNavigator.css';
-
 
 const ContentNavigator = () => {
   return (
@@ -22,7 +21,7 @@ const ContentNavigator = () => {
         <Route path='/konkurs' component={ KonkursContainer } />
         <Route path='/enrolled' component={ EnrolledContainer } />
         <Route path='/contacts' component={ Contacts } />
-        <Route path='/viewer' component={ Viewer } />
+        <Route path='/viewer' component={ ViewerContainer } />
       </Switch>
     </div>
   )

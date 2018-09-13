@@ -29,16 +29,16 @@ const InfoList = props => {
   });
 
   return (
-    <div className="InfoList">
+    <div className='InfoList'>
       <Typography
-        variant="title"
-        tag="h4"
-        modClass="Typography_SubTitle"
+        variant='title'
+        tag='h4'
+        modClass='Typography_SubTitle'
       >
         {name}
       </Typography>
 
-      <div className="InfoList-List">
+      <div className='InfoList-List'>
         {infoList}
       </div>
     </div>

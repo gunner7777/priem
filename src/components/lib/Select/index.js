@@ -10,8 +10,8 @@ class Select extends Component {
     super();
     this.state = {
       showItems: false,
-      selectValue: "Выберите",
-      target: ""
+      selectValue: 'Выберите',
+      target: ''
     };
 
     this.showVariants = this.showVariants.bind(this);
@@ -55,16 +55,16 @@ class Select extends Component {
   render() {
     return (
       <div
-        className="Select">
+        className='Select Text_Center'>
         <CSSTransition
           in={!this.state.showItems}
           timeout={150}
-          classNames="selectAnimate"
+          classNames='selectAnimate'
           unmountOnExit
         >
         <div
           id={this.props.id}
-          className="Select-Choosen"
+          className='Select-Choosen'
           onClick={this.showVariants}
         >
           {this.state.selectValue}
@@ -73,7 +73,7 @@ class Select extends Component {
         <CSSTransition
           in={this.state.showItems}
           timeout={150}
-          classNames="selectAnimate"
+          classNames='selectAnimate'
           unmountOnExit
         >
           <SelectItems

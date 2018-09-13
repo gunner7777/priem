@@ -11,19 +11,19 @@ $data = json_decode(file_get_contents("php://input"));
 
 switch($data->id) {
   case "docs":
-    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/docs.json');
+    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/priem-data/docs.json');
     break;
   case "sveden":
-    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/sveden.json');
+    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/priem-data/sveden.json');
     break;
   case "exam":
-    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/exam.json');
+    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/priem-data/exam.json');
     break;
   case "konkurs":
-    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/konkurs/' . $data->filename);
+    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/priem-data/konkurs/' . $data->filename);
     break;
   case "enrolled":
-    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/enrolled/' . $data->filename);
+    $resp = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/priem-data/enrolled/' . $data->filename);
     break;
 
   default: break;

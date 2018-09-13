@@ -4,10 +4,10 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div className='Footer Text_Center'>
       <Typography
-        variant="text"
-        tag="p">
+        variant='text'
+        tag='p'>
         &copy; Вятская ГСХА
       </Typography>
     </div>

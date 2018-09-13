@@ -1,3 +1,23 @@
+@import "../../styles/colors";
+
 .Viewer {
-  
+  &-Header {
+    margin-bottom: 20px;
+  }
+
+  &-Icon {
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 5px 8px;
+    height: 35px;
+    border-radius: 50%;
+    transition: background-color .5s ease, color .3s ease;
+
+    &:hover {
+      background-color: $dark_green;
+      border-radius: 50%;
+      color: $white;
+    }
+  }
 }

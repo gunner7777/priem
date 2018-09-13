@@ -12,7 +12,8 @@ import {
 import {
   setTargetSelect,
   getTargetsSelect
- } from '../../actions/selectActions';
+} from '../../actions/selectActions';
+import { viewFile } from '../../actions/viewerActions';
 import Loader from '../../components/lib/Loader';
 import { randomVersion } from '../../util/vers-random';
 import InfoList from '../../components/InfoList';
@@ -31,6 +32,7 @@ class KonkursContainer extends Component {
     this.chooseList = this.chooseList.bind(this);
     this.searchKonkursList = this.searchKonkursList.bind(this);
     this.showTargets = this.showTargets.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
@@ -59,13 +61,23 @@ class KonkursContainer extends Component {
 
   searchKonkursList() {
     this.props.fetchData({
-      id: "konkurs",
+      id: 'konkurs',
       filename: this.props.currList
     });
   }
 
   showTargets(id) {
     this.props.getTargetsSelect(id);
+  }
+
+  handleClick(e) {
+    const fileInfo = {
+      path: e.target.dataset.link,
+      name: e.target.innerHTML,
+      type: 'text/html'
+    }
+
+    this.props.viewFile(fileInfo);
   }
 
   render() {
@@ -75,15 +87,15 @@ class KonkursContainer extends Component {
     return (
       <div>
         <Typography
-          variant="title"
-          tag="h3" >
+          variant='title'
+          tag='h3' >
           Конкурсные ранжированные списки
         </Typography>
         <Select
-          label="Уровень образования"
+          label='Уровень образования'
           options={grad}
           changeValue={this.chooseGrad}
-          id="konkursLevelEdu"
+          id='konkursLevelEdu'
           showTargets={this.showTargets}
           isHide={this.props.select.onTarget}
           currId={this.props.select.prevTargetId}
@@ -92,10 +104,10 @@ class KonkursContainer extends Component {
         {
           this.props.currFacs !== undefined && this.props.currFacs.length > 0 &&
             <Select
-              label="Факультет"
+              label='Факультет'
               options={this.props.currFacs}
               changeValue={this.chooseFac}
-              id="konkursFacEdu"
+              id='konkursFacEdu'
               showTargets={this.showTargets}
               isHide={this.props.select.onTarget}
               currId={this.props.select.prevTargetId}
@@ -105,10 +117,10 @@ class KonkursContainer extends Component {
         {
           this.props.currForms !== undefined && this.props.currForms.length > 0 &&
             <Select
-              label="Форма обучения"
+              label='Форма обучения'
               options={this.props.currForms}
               changeValue={this.chooseForm}
-              id="konkursFormaEdu"
+              id='konkursFormaEdu'
               showTargets={this.showTargets}
               isHide={this.props.select.onTarget}
               currId={this.props.select.prevTargetId}
@@ -118,10 +130,10 @@ class KonkursContainer extends Component {
         {
           this.props.currBase !== undefined && this.props.currBase.length > 0 &&
             <Select
-              label="Основа"
+              label='Основа'
               options={this.props.currBase}
               changeValue={this.chooseList}
-              id="konkursBaseEdu"
+              id='konkursBaseEdu'
               showTargets={this.showTargets}
               isHide={this.props.select.onTarget}
               currId={this.props.select.prevTargetId}
@@ -129,7 +141,7 @@ class KonkursContainer extends Component {
         }
 
         {
-          this.props.currList !== "" &&
+          this.props.currList !== '' &&
             <Button
               handleClick={this.searchKonkursList}
             >
@@ -146,6 +158,7 @@ class KonkursContainer extends Component {
               key={shortid.generate()}
               list={this.props.konkurs}
               version={random}
+              getFileInfo={this.handleClick}
             />
         }
       </div>
@@ -176,7 +189,8 @@ const mapDispatchToProps = (dispatch) => {
     setKonkursList: (base) => dispatch(setKonkursList(base)),
     setTargetSelect: (id) => dispatch(setTargetSelect(id)),
     getTargetsSelect: (id) => dispatch(getTargetsSelect(id)),
-    resetToDefault: (bool) => dispatch(resetToDefault(bool))
+    resetToDefault: (bool) => dispatch(resetToDefault(bool)),
+    viewFile: (info) => dispatch(viewFile(info)),
   }
 }
 

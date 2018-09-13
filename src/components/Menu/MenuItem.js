@@ -6,7 +6,7 @@ const MenuItem = props => {
   return (
     <li>
       <Link
-        className="Menu-Link"
+        className='Menu-Link'
         to={props.link}
       >
         {props.children}

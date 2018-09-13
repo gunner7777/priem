@@ -6,11 +6,11 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 const InfoItem = props => {
   return (
-    <div className="InfoList-Item">
-      <FontAwesomeIcon icon={faAngleRight} className="InfoList-Icon" />
+    <div className='InfoList-Item'>
+      <FontAwesomeIcon icon={faAngleRight} className='InfoList-Icon' />
       <Link
         onClick={props.getInfo}
-        className="InfoList-Link"
+        className='InfoList-Link'
         data-link={props.link}
         to='/viewer'
       >

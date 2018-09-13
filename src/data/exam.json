@@ -2,28 +2,820 @@
   "name": "Результаты вступительных испытаний",
   "examins": [
     {
-      "name": "12.07.2017",
+      "name": "03.07.2018",
       "docs": [
         {
-          "link": "http://vgsha.info/attachments/priem_kom/2017/results/biology_12.07.2017.pdf",
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_03.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_z_03.07.2018.pdf",
+          "text": "Биология (Биология ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_03.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_03.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_03.07.2018.pdf",
+          "text": "Обществознание"
+        }
+      ]
+    },
+    {
+      "name": "05.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_05.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_veterinariya_oz_05.07.2018.pdf",
+          "text": "Биология (Ветеринария ОЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_05.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_05.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "attachments/priem_kom/2018/results/obshestvoTest_z_managment_05.07.2018.pdf",
+          "text": "Обществознание (Менеджмент ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "10.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_10.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_biologiya_z_10.07.2018.pdf",
+          "text": "Биология (Биология ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_10.07.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_10.07.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_z_managment_05.07.2018.pdf",
+          "text": "Обществознание (Менеджмент ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "11.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_agroing_z_11.07.2018.pdf",
+          "text": "Математика (Агроинженерия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_agroing_o_11.07.2018.pdf",
+          "text": "Математика (Агроинженерия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_ttp_o_11.07.2018.pdf",
+          "text": "Математика (Технология транспортных процессов ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_ekspl_z_11.07.2018.pdf",
+          "text": "Математика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_ekspl_o_11.07.2018.pdf",
+          "text": "Математика (Эксплуатация ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_agronomiya_o_11.07.2018.pdf",
+          "text": "Биология (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_agronomiya_o2_11.07.2018.pdf",
+          "text": "Биология (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_agronomiya_z_11.07.2018.pdf",
+          "text": "Биология (Агрономия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_technProizv_o_11.07.2018.pdf",
+          "text": "Биология (Технология производства и переработки сх продукции ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_technProizv_z_11.07.2018.pdf",
+          "text": "Биология (Технология производства и переработки сх продукции ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_biologiya_o_11.07.2018.pdf",
+          "text": "Биология (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_zootechniya_o_11.07.2018.pdf",
+          "text": "Биология (Зоотехния ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_zootechniya_z_11.07.2018.pdf",
+          "text": "Биология (Зоотехния ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_veterinariya_o_11.07.2018.pdf",
+          "text": "Биология (Ветеринария ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_veterinariya_oz_11.07.2018.pdf",
+          "text": "Биология (Ветеринария ОЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "12.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_veterinariya_z_12.07.2018.pdf",
+          "text": "Математика (Ветеринария ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_veterinariya_z_12.07.2018.pdf",
+          "text": "Русский язык (Ветеринария ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mezhdiscipl_veterinariya_z_12.07.2018.pdf",
+          "text": "Междисциплинарный экзамен (Ветеринария ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_12.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_biologiya_z_12.07.2018.pdf",
+          "text": "Биология (Биология ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_12.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_12.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_12.07.2018.pdf",
+          "text": "Обществознание"
+        }
+      ]
+    },
+    {
+      "name": "14.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_agronomiya_o_14.07.2018.pdf",
+          "text": "Математика (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_agronomiya_z_14.07.2018.pdf",
+          "text": "Математика (Агрономия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_biologiya_o_14.07.2018.pdf",
+          "text": "Математика (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_technProizv_o_14.07.2018.pdf",
+          "text": "Математика (Технология производства и переработки сх продукции ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_technProizv_z_14.07.2018.pdf",
+          "text": "Математика (Технология производства и переработки сх продукции ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_veterinariya_o_14.07.2018.pdf",
+          "text": "Математика (Ветеринария ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_veterinariya_oz_14.07.2018.pdf",
+          "text": "Математика (Ветеринария ОЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_zootechniya_o_14.07.2018.pdf",
+          "text": "Математика (Зоотехния ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_zootechniya_o_14.07.2018.pdf",
+          "text": "Математика (Зоотехния ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_agroingeneriya_o_14.07.2018.pdf",
+          "text": "Русский язык (Агроинженерия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_agroingeneriya_z_14.07.2018.pdf",
+          "text": "Русский язык (Агроинженерия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_ttp_o_14.07.2018.pdf",
+          "text": "Русский язык (Технология транспортных процессов ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_ekspl_z_14.07.2018.pdf",
+          "text": "Русский язык (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_ekspl_o_14.07.2018.pdf",
+          "text": "Русский язык (Эксплуатация ОФ)"
+        }
+      ]
+    },
+    {
+      "name": "17.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizika_agroingeneriya_o_17.07.2018.pdf",
+          "text": "Физика (Агроинженерия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizika_agroingeneriya_z_17.07.2018.pdf",
+          "text": "Физика (Агроинженерия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizika_ttp_o_17.07.2018.pdf",
+          "text": "Физика (Технология транспортных процессов ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizika_ekspl_z_17.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizika_ekspl_o_17.07.2018.pdf",
+          "text": "Физика (Эксплуатация ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_agronomiya_o_17.07.2018.pdf",
+          "text": "Русский язык (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_agronomiya_z_17.07.2018.pdf",
+          "text": "Русский язык (Агрономия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_technProizv_o_17.07.2018.pdf",
+          "text": "Русский язык (Технология производства и переработки сх продукции ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_technProizv_o2_17.07.2018.pdf",
+          "text": "Русский язык (Технология производства и переработки сх продукции ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_technProizv_z_17.07.2018.pdf",
+          "text": "Русский язык (Технология производства и переработки сх продукции ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_biologiya_o_17.07.2018.pdf",
+          "text": "Русский язык (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_zootechniya_z_17.07.2018.pdf",
+          "text": "Русский язык (Зоотехния ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_zootechniya_o_17.07.2018.pdf",
+          "text": "Русский язык (Зоотехния ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_veterinariya_o_17.07.2018.pdf",
+          "text": "Русский язык (Ветеринария ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_veterinariya_oz_17.07.2018.pdf",
+          "text": "Русский язык (Ветеринария ОЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_17.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_17.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_17.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_17.07.2018.pdf",
+          "text": "Обществознание"
+        }
+      ]
+    },
+    {
+      "name": "19.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_19.07.2018.pdf",
           "text": "Биология"
         },
         {
-          "link": "http://vgsha.info/attachments/priem_kom/2017/results/maths_12.07.2017.pdf",
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_19.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_19.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_19.07.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_19.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_19.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_19.07.2018.pdf",
+          "text": "Обществознание"
+        }
+      ]
+    },
+    {
+      "name": "21.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_agronomiya_o_21.07.2018.pdf",
+          "text": "Биология (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_biologiya_o_21.07.2018.pdf",
+          "text": "Математика (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_agronomiya_o_21.07.2018.pdf",
+          "text": "Математика (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_21.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat2_21.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat3_21.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat4_21.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat5_21.07.2018.pdf",
           "text": "Математика"
         }
       ]
     },
     {
-      "name": "15.07.2017",
+      "name": "24.07.2018",
       "docs": [
         {
-          "link": "http://vgsha.info/attachments/priem_kom/2017/results/russkii_15.07.2017.pdf",
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_biologiya_o_24.07.2018.pdf",
+          "text": "Биология (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_24.07.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio2_24.07.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio3_24.07.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio4_24.07.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio5_24.07.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_agronomiya_o_24.07.2018.pdf",
+          "text": "Магистратура (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_agronomiya_z_24.07.2018.pdf",
+          "text": "Магистратура (Агрономия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_agroingeneriya_o_24.07.2018.pdf",
+          "text": "Магистратура (Агроинженерия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_agroingeneriya_z_24.07.2018.pdf",
+          "text": "Магистратура (Агроинженерия ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_ekspl_o_24.07.2018.pdf",
+          "text": "Магистратура (Эксплуатация ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_ttp_o_24.07.2018.pdf",
+          "text": "Магистратура (Технология транспортных процессов ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_biologiya_o_24.07.2018.pdf",
+          "text": "Магистратура (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_zootechniya_o_24.07.2018.pdf",
+          "text": "Магистратура (Зоотехния ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_ekonomika_24.07.2018.pdf",
+          "text": "Магистратура (Экономика)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_managment_24.07.2018.pdf",
+          "text": "Магистратура (Менеджмент)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_gmu_24.07.2018.pdf",
+          "text": "Магистратура (ГМУ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_24.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_z_24.07.2018.pdf",
+          "text": "Биология ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_24.07.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_24.07.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_ekonomika_z_24.07.2018.pdf",
+          "text": "Обществознание (Русский язык ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "26.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizika_26.07.2018.pdf",
+          "text": "Физика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_agronomiya_o_26.07.2018.pdf",
+          "text": "Русский язык (Агрономия ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_biologiya_o_26.07.2018.pdf",
+          "text": "Русский язык (Биология ОФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_26.07.2018.pdf",
           "text": "Русский язык"
         },
         {
-          "link": "http://vgsha.info/attachments/priem_kom/2017/results/maths_15.07.2017.pdf",
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii2_26.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii3_26.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii4_26.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii5_26.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii6_26.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_26.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_veterinariya_oz_26.07.2018.pdf",
+          "text": "Биология (Ветеринария ОЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_26.07.2018.pdf",
           "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_26.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_z_26.07.2018.pdf",
+          "text": "Обществознание ЗФ"
+        }
+      ]
+    },
+    {
+      "name": "28.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_biologiya_z_28.07.2018.pdf",
+          "text": "Биология (Биология ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_biologiya_z_28.07.2018.pdf",
+          "text": "Математика (Биология ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_biologiya_z_28.07.2018.pdf",
+          "text": "Математика (Биология ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "31.07.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_31.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest2_ekspl_z_31.07.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_veterinariya_oz_31.07.2018.pdf",
+          "text": "Биология (Ветеринария ОЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_31.07.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_ekspl_z_31.07.2018.pdf",
+          "text": "Математика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_31.07.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_ekspl_z_31.07.2018.pdf",
+          "text": "Русский язык (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_z_31.07.2018.pdf",
+          "text": "Обществознание ЗФ"
+        }
+      ]
+    },
+    {
+      "name": "02.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_02.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_biologiya_z_02.08.2018.pdf",
+          "text": "Биология ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_02.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_02.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_z_02.08.2018.pdf",
+          "text": "Обществознание ЗФ"
+        }
+      ]
+    },
+    {
+      "name": "07.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_07.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_07.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_07.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_z_07.08.2018.pdf",
+          "text": "Обществознание ЗФ"
+        }
+      ]
+    },
+    {
+      "name": "09.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_z_09.08.2018.pdf",
+          "text": "Биология ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_09.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_09.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_z_09.08.2018.pdf",
+          "text": "Обществознание ЗФ"
+        }
+      ]
+    },
+    {
+      "name": "14.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_14.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_14.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_14.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_ekonomika_z_14.08.2018.pdf",
+          "text": "Обществознание (Экономика ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "16.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_16.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_16.08.2018.pdf",
+          "text": "Биология"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_16.08.2018.pdf",
+          "text": "Математика"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_16.08.2018.pdf",
+          "text": "Русский язык"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvoTest_ekonomika_z_16.08.2018.pdf",
+          "text": "Обществознание (Экономика ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_ekonomika_16.08.2018.pdf",
+          "text": "Магистратура (Экономика)"
+        }
+      ]
+    },
+    {
+      "name": "21.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_z_21.08.2018.pdf",
+          "text": "Биология ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_z_21.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvo_z_21.08.2018.pdf",
+          "text": "Обществознание ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_21.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_21.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_ekonomika_21.08.2018.pdf",
+          "text": "Магистратура (Экономика)"
+        }
+      ]
+    },
+    {
+      "name": "23.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bio_z_23.08.2018.pdf",
+          "text": "Биология ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_z_23.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_z_23.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_23.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mag_agronomiya_z_23.08.2018.pdf",
+          "text": "Магистратура (Агрономия ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "27.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/mat_veterinariya_z_27.08.2018.pdf",
+          "text": "Математика (Ветеринария ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkii_veterinariya_z_27.08.2018.pdf",
+          "text": "Русский язык (Ветеринария ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/kompleksn_veterinariya_z_27.08.2018.pdf",
+          "text": "Комплексный экзамен (Ветеринария ЗФ)"
+        }
+      ]
+    },
+    {
+      "name": "28.08.2018",
+      "docs": [
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/obshestvo_z_28.08.2018.pdf",
+          "text": "Обществознание ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/fizikaTest_ekspl_z_28.08.2018.pdf",
+          "text": "Физика (Эксплуатация ЗФ)"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/bioTest_z_28.08.2018.pdf",
+          "text": "Биология ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest_z_28.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/matTest2_z_28.08.2018.pdf",
+          "text": "Математика ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest_z_28.08.2018.pdf",
+          "text": "Русский язык ЗФ"
+        },
+        {
+          "link": "http://vgsha.info/attachments/priem_kom/2018/results/russkiiTest2_z_28.08.2018.pdf",
+          "text": "Русский язык ЗФ"
         }
       ]
     }

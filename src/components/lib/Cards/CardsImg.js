@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const CardsImg = props => {
   return (
-    <div className="Cards-Img">
+    <div className='Cards-Img'>
       {props.children}
     </div>
   );

@@ -14,7 +14,7 @@ const Menu = props => {
     )
   });
   return (
-    <ul className="Menu">
+    <ul className='Menu'>
       {menu}
     </ul>
   );

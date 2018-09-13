@@ -3,31 +3,31 @@
   "docs": [
     {
       "text": "Список лиц, подавших документы, необходимые для поступления",
-      "link": "http://vgsha.info/attachments/exam/ListForSite.htm"
+      "link": "http://vgsha.info/attachments/exam/list.pdf"
     },
     {
       "text": "Очная форма, бюджет",
-      "link": "http://vgsha.info/attachments/exam/ob.xls"
+      "link": "http://vgsha.info/attachments/exam/ob.pdf"
     },
     {
-      "text": "очная форма, внебюджет",
-      "link": "http://vgsha.info/attachments/exam/ovb.xls"
+      "text": "Очная форма, внебюджет",
+      "link": "http://vgsha.info/attachments/exam/ovb.pdf"
     },
     {
-      "text": "заочная форма, бюджет",
-      "link": "http://vgsha.info/attachments/exam/zb.xls"
+      "text": "Заочная форма, бюджет",
+      "link": "http://vgsha.info/attachments/exam/zb.pdf"
     },
     {
-      "text": "заочная форма, внебюджет",
-      "link": "http://vgsha.info/attachments/exam/zvb.xls"
+      "text": "Заочная форма, внебюджет",
+      "link": "http://vgsha.info/attachments/exam/zvb.pdf"
     },
     {
-      "text": "очно-заочная форма, бюджет",
-      "link": "http://vgsha.info/attachments/exam/ozb.xls"
+      "text": "Очно-заочная форма, бюджет",
+      "link": "http://vgsha.info/attachments/exam/ozb.pdf"
     },
     {
-      "text": "очно-заочная форма, внебюджет",
-      "link": "http://vgsha.info/attachments/exam/ozvb.xls"
+      "text": "Очно-заочная форма, внебюджет",
+      "link": "http://vgsha.info/attachments/exam/ozvb.pdf"
     }
   ]
 }

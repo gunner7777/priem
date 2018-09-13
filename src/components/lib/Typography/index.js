@@ -11,7 +11,7 @@ props
 */
 
 const Typography = props => {
-  const tag = props.tag ? props.tag : "p";
+  const tag = props.tag ? props.tag : 'p';
   const style = [];
   if(props.variant === 'title') {
     style.push('Typography-Title');

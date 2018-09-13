@@ -6,7 +6,7 @@ const SelectItems = props => {
     return (
       <p
         id={props.idSelect}
-        className="Select-Item"
+        className='Select-Item'
         key={index}
         onClick={props.handleClick}
       >
@@ -16,7 +16,7 @@ const SelectItems = props => {
   });
 
   return (
-    <div className="Select-Items">
+    <div className='Select-Items'>
       {selectItems}
     </div>
   )

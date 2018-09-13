@@ -32,12 +32,12 @@ class App extends Component {
       <div className="App" onClick={this.handleClick}>
         <Header
           handleClick={this.toggleNav}
-          showMenu={this.props.menu.isShow}
+          showMenu={!this.props.menu.isShow}
         />
         <div className="Content">
           <Navigation
             forMenu={menuItems}
-            showMenu={this.props.menu.isShow}
+            showMenu={!this.props.menu.isShow}
             />
           <ContentNavigator />
         </div>

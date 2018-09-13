@@ -8,10 +8,10 @@ const Navigation = (props) => {
     <CSSTransition
       in={props.showMenu}
       timeout={350}
-      classNames="MenuAnimate"
+      classNames='MenuAnimate'
       unmountOnExit
     >
-      <nav className="Nav">
+      <nav className='Nav'>
         <Menu items={props.forMenu} />
       </nav>
     </CSSTransition>

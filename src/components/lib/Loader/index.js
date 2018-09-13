@@ -6,8 +6,8 @@ import './Loader.css';
 
 const Loader = () => {
   return (
-    <div className="Loader-Outer">
-      <FontAwesomeIcon icon={faSpinner} className="Loader"/>
+    <div className='Loader-Outer Text_Center'>
+      <FontAwesomeIcon icon={faSpinner} className='Loader'/>
     </div>
   );
 }

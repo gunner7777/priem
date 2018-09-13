@@ -8,21 +8,24 @@ import './Viewer.css';
 const Viewer = props => {
   return (
     <div className='Viewer'>
-      <div className='Flex'>
+      <div className='Viewer-Header Flex Flex_AiC'>
         <FontAwesomeIcon
+          className='Viewer-Icon'
           icon={faArrowLeft}
+          onClick={props.goBack}
         />
         <Typography
-          variant="title"
-          tag="h4"
-          modClass="Typography_SubTitle"
+          variant='title'
+          tag='h4'
+          modClass='Typography_SubTitle Typography_NoMargin'
         >
-          Правила приема
+          {props.name}
         </Typography>
       </div>
       <div>
         <FileViewer
-        filePath='http://vgsha.info/attachments/priem_kom/2018/Pravila_priema_29.09.2017.pdf?version=57503' />
+          filePath={props.path}
+          fileType={props.type} />
       </div>
     </div>
   )

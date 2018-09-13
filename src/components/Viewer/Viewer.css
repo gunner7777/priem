@@ -1,0 +1,15 @@
+.Viewer-Header {
+  margin-bottom: 20px; }
+
+.Viewer-Icon {
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 5px 8px;
+  height: 35px;
+  border-radius: 50%;
+  transition: background-color .5s ease, color .3s ease; }
+  .Viewer-Icon:hover {
+    background-color: #26905c;
+    border-radius: 50%;
+    color: #ffffff; }

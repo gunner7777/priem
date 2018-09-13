@@ -15,7 +15,7 @@ export const exam = (state=initialState, action) => {
         ...state,
         exam: action.exam
       }
-    
+
     case EXAM_IS_LOADING:
       return {
         ...state,
