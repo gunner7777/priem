@@ -6,11 +6,21 @@
   background-color: $dark_green;
   color: $white;
 
-  &-Menu {
+  &-Menu,
+  &-Home {
     padding: 3px;
-    font-size: 2rem;
-    margin-right: 20px;
     cursor: pointer;
+    font-size: 2rem;
+    color: $white;
+  }
+
+  &-Menu {
+    margin-right: 20px;
+  }
+
+  &-HomeOuter {
+    position: absolute;
+    right: 20px;
   }
 }
 

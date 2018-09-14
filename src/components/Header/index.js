@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faArrowLeft, faHome } from '@fortawesome/free-solid-svg-icons';
 import { CSSTransition } from 'react-transition-group';
 import Typography from '../lib/Typography';
 import './Header.css';
@@ -31,6 +32,15 @@ const Header = (props) => {
         >
           Информационный стенд Вятской ГСХА
         </Typography>
+      </div>
+      <div className='Header-HomeOuter'>
+        <Link
+          to='/'>
+          <FontAwesomeIcon
+            icon={faHome}
+            className='Header-Home'
+          />
+        </Link>
       </div>
     </div>
   )
