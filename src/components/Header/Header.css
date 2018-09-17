@@ -1,4 +1,5 @@
 .Header {
+  position: relative;
   padding: 10px 15px;
   min-height: 80px;
   background-color: #26905c;
@@ -12,7 +13,9 @@
     margin-right: 20px; }
   .Header-HomeOuter {
     position: absolute;
-    right: 20px; }
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); }
 
 /* IconAnimate */
 .IconAnimate-enter {

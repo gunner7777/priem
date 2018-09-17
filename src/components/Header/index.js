@@ -30,7 +30,7 @@ const Header = (props) => {
           tag='h1'
           modClass='Typography_NoMargin Typography_Header'
         >
-          Информационный стенд Вятской ГСХА
+          Информационный стенд
         </Typography>
       </div>
       <div className='Header-HomeOuter'>
