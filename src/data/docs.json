@@ -1,6 +1,6 @@
 {
-  "vo": {
-    "name": "Высшее образование (ВО)",
+  "uchred": {
+    "name": "Учредительные документы",
     "docs": [
       {
         "text": "Устав ФГБОУ ВО Вятская ГСХА",
@@ -21,62 +21,71 @@
       {
         "text": "Приложения к свидетельству о государственной аккредитации",
         "link": "http://vgsha.info/attachments/academy/uchred_docs/Pril1_akkred_03.09.2015.pdf"
-      },
+      }
+    ]
+  },
+  "vo": {
+    "name": "Высшее образование (ВО)",
+    "docs": [
       {
         "text": "Правила приема",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/Pravila_priema_29.09.2017.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/Pravila_priema_27.09.2018.pdf"
       },
       {
         "text": "Перечень направлений подготовки (специальностей)",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/perechen_napravleniy_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/perechen_napravleniy.pdf"
       },
       {
         "text": "Перечень вступительных испытаний",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/perechen_vstup_isp_po_predmetam_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/perechen_vstup_isp_po_predmetam.pdf"
       },
       {
         "text": "Информация о формах проведения вступительных испытаний",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/perechen_i_formi_vstup_isp_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/perechen_i_formi_vstup_isp.pdf"
       },
       {
         "text": "Информация о приоритетности вступительных испытаний при ранжировании поступающих по результатам вступительных испытаний",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/prioritety_rangirovanie_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/prioritety_rangirovanie.pdf"
       },
       {
         "text": "Информация о возможности подачи документов для поступления на обучение в электронной форме",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/vozm_podachi_doc_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/vozm_podachi_doc.pdf"
       },
       {
         "text": "Особые права при приеме на обучение",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/osobie_prava_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/osobie_prava.pdf"
       },
       {
         "text": "Информация об особенностях проведения вступительных испытаний для лиц с ограниченными возможностями здоровья, инвалидов",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/isp_ogranichennie_vozm_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/isp_ogranichennie_vozm.pdf"
       },
       {
         "text": "Информация о порядке учета результатов индивидуальных достижений",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/poryadok_ucheta_individ_dostig_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/poryadok_ucheta_individ_dostig.pdf"
       },
       {
         "text": "Минимальное количество баллов для каждого вступительного испытания",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/minim_bally_ege_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/minim_bally_ege.pdf"
       },
       {
         "text": "Инфомация о проведении вступительных испытаний с использованием дистанционных технологий",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/dist_forma.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/dist_forma.pdf"
       },
       {
         "text": "Общее количество мест для приема по программам бакалавриата, специалитета",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/obshee_kolichestvo_mest_bak_spec.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/obshee_kolichestvo_mest_bak_spec.pdf"
       },
       {
         "text": "Общее количество мест для приема по программам магистратуры",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/obshee_kolichestvo_mest_mag.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/obshee_kolichestvo_mest_mag.pdf"
       },
       {
         "text": "Количество мест по совокупности условий поступления",
-        "link": "http://vgsha.info/attachments/priem_kom/2017/kolvo_mest_po_sovokuposti_uslov_postupl.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/kolvo_mest_po_sovokuposti_uslov_postupl.pdf"
+      },
+      {
+        "text": "Дополнительный прием на обучение",
+        "link": "http://vgsha.info/attachments/priem_kom/2019/dop_priem_vo.pdf"
       },
       {
         "text": "Образец договора об оказании платных образовательных услуг",
@@ -96,39 +105,39 @@
       },
       {
         "text": "Информация о местах приема документов",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/mesta_priema_documentov_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/mesta_priema_documentov.pdf"
       },
       {
         "text": "Информация о почтовых адресах для направления документов",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/pochtovyi_address_dlya_napravleniya_docum.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/pochtovyi_address_dlya_napravleniya_docum.pdf"
       },
       {
         "text": "Положение об апелляционной комиссии (правила подачи и рассмотрения апелляций)",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/Pravila_Appeal_29.09.2017.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/Pravila_Appeal_27.09.2018.pdf"
       },
       {
         "text": "Информация о наличии общежитий",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/nalichie_obshejitii.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/nalichie_obshejitii.pdf"
       },
       {
         "text": "Информация о наличии мест в общежитиях для иногородних поступающих",
-        "link": "http://vgsha.info/attachments/priem_kom/2017/nalichie_mest_obshejitii.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/nalichie_mest_obshejitii.pdf"
       },
       {
         "text": "Информация о прохождении вступительных испытаний на русском языке",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/ispyt_na_russkom.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/ispyt_na_russkom.pdf"
       },
       {
         "text": "Расписание вступительных испытаний, проводимых Вятской ГСХА",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/raspisanie_vstup_isp_vgsha.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/raspisanie_vstup_isp_vgsha.pdf"
       },
       {
         "text": "Информация о сроках проведения приема в ФГБОУ ВО Вятская ГСХА",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/sroki_priema_vo_2018.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/sroki_priema_vo.pdf"
       },
       {
         "text": "Заявление для абитуриента",
-        "link": "http://vgsha.info/attachments/priem_kom/2018/zayavlenie_vgsha_2018_2019.pdf"
+        "link": "http://vgsha.info/attachments/priem_kom/2019/zayavlenie_vgsha_2018_2019.pdf"
       }
     ]
   },
@@ -162,6 +171,95 @@
       {
         "text": "Положение о предоставлении скидок по оплате обучения лицам, обучающимся по договорам об образовании (договорам об оказании платных образовательных услуг или получении среднего профессионального или высшего образования), на 2018-2019 учебный год",
         "link": "http://vgsha.info/attachments/postanovlenie/platn_obraz_uslugi/Polozhenie_oPredostavlSkidkiPoOplateObucheniya_31.08.2018.pdf"
+      }
+    ]
+  },
+  "asp": {
+    "name": "Аспирантура",
+    "docs": [
+      {
+        "text": "Положение о порядке организации и осуществления образовательной деятельности по образовательным программам высшего образования - программам подготовки научно-педагогических кадров в аспирантуре",
+        "link": "http://vgsha.info/attachments/postanovlenie/UMO/Metod_polozhenie_oPoryadkeOrganizObrazDeyatAspir_25.09.2015.pdf"
+      },
+      {
+        "text": "Правила приема в аспирантуру",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/Pravila_priema_Aspirantura_27.09.2018.pdf"
+      },
+      {
+        "text": "Информация о сроках начала и завершения приема документов, необходимых для поступления, сроках проведения вступительных испытаний",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/sroki_priema_aspir.pdf"
+      },
+      {
+        "text": "Условия поступления указанные в пункте 8 Порядка",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/usloviya_postupleniya.pdf"
+      },
+      {
+        "text": "Количество мест для приема на обучение",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/kolvo_mest.pdf"
+      },
+      {
+        "text": "Перечень вступительных испытаний",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/perechen_vstup_isp.pdf"
+      },
+      {
+        "text": "Шкала оценивания и минимальное количество баллов, подтверждающее успешное прохождение вступительного испытания",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/min_kolvo_ballov.pdf"
+      },
+      {
+        "text": "Информация о формах проведения вступительных испытаний",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/formy_proved_vstup_isp.pdf"
+      },
+      {
+        "text": "Информация о языке (языках), на котором осуществляется сдача вступительных испытаний",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/ispyt_na_russkom.pdf"
+      },
+      {
+        "text": "Информация о порядке учета индивидуальных достижений поступающих",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/poryadok_ucheta_individ_dostig_2020.pdf"
+      },
+      {
+        "text": "Информация о возможности подачи документов, необходимых для поступления, в электронной форме",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/vozm_podachi_doc_2020.pdf"
+      },
+      {
+        "text": "Информация об особенностях проведения вступительных испытаний для поступающих инвалидов",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/isp_ogranichennie_vozm_2020.pdf"
+      },
+      {
+        "text": "Информация о возможности дистанционной сдачи вступительных испытаний",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/dist_forma.pdf"
+      },
+      {
+        "text": "Правила подачи и рассмотрения аппеляций по результатам вступительных испытаний (положение об аппеляционной комиссии)",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/formy_proved_vstup_isp.pdf"
+      },
+      {
+        "text": "Образец договора об оказании платных образовательных услуг",
+        "link": "http://vgsha.info/sveden/paid_edu/"
+      },
+      {
+        "text": "Информация о местах приема документов, необходимых для поступления",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/mesta_priema_documentov.pdf"
+      },
+      {
+        "text": "Информация о почтовых адресах для направления документов, необходимых для поступления, об электронных адрес для направления документов, необходимых для поступления, в электронной форме",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/adresa_dlya_napravl_dokumentov.pdf"
+      },
+      {
+        "text": "Информация о наличии общежития",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/nalichie_obshejitii.pdf"
+      },
+      {
+        "text": "Информация о необходимости прохождения поступающими медицинского осмотра",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/medosmotr.pdf"
+      },
+      {
+        "text": "Положение об экзаменационной комиссии по программам подготовки научно-педагогических кадров в аспирантуре на 2019-2020 учебный год",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/polozh_ekzam_komissiya_27.09.2018.pdf"
+      },
+      {
+        "text": "Положение об учете индивидуальных достижений поступающих при приеме на обучение по программам подготовки научно-педагогических кадров в аспирантуре на 2019-2020 учебный год",
+        "link": "http://vgsha.info/attachments/science/aspir/priem/2019-2020/polozh_poryadok_ucheta_individ_dostig_27.09.2018.pdf"
       }
     ]
   }
