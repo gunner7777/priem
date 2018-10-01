@@ -38,8 +38,18 @@ class DocsContainer extends Component {
       return <Loader />;
     }
 
-    const { vo, spo } = this.props.docs;
     let random = randomVersion();
+
+    const docsLists = Object.values(this.props.docs).map(item => {
+      return (
+        <InfoList
+          key={shortid.generate()}
+          list={item}
+          version={random}
+          getFileInfo={this.handleClick}
+        />
+      );
+    });
 
     return (
       <div>
@@ -48,18 +58,7 @@ class DocsContainer extends Component {
           tag='h3' >
           Документы приемной комиссии
         </Typography>
-        <InfoList
-          key={shortid.generate()}
-          list={vo}
-          version={random}
-          getFileInfo={this.handleClick}
-        />
-        <InfoList
-          key={shortid.generate()}
-          list={spo}
-          version={random}
-          getFileInfo={this.handleClick}
-        />
+        {docsLists}
       </div>
     )
   }
