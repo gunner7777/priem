@@ -1,4 +1,4 @@
-export const API_URL = 'http://vgsha.info/api/v1/restapi.php';
+export const API_URL = 'https://vgsha.info/api/v1/restapi.php';
 
 export const selectId = [
   'konkursLevelEdu',
@@ -11,8 +11,7 @@ export const selectId = [
   'enrolledBaseEdu'
 ]
 
-export const menuItems = [
-  {
+export const menuItems = [{
     name: 'Главная',
     link: '/',
     icon: 'faHome',
@@ -27,11 +26,11 @@ export const menuItems = [
     link: '/sveden',
     icon: 'faNewspaper',
   },
-  {
+  /* {
     name: 'Результаты вступительных экзаменов',
     link: '/exam',
     icon: 'faMarker',
-  },
+  }, */
   {
     name: 'Конкурсные ранжированные списки',
     link: '/konkurs',

@@ -11,18 +11,18 @@
     top: 0;
     position: absolute;
     border-radius: 3px;
-    background-color: #65bb9b;
+    background-color: #dc8181;
     z-index: 100; }
   .Select-Item, .Select-Choosen {
     padding: 20px 15px;
     cursor: pointer; }
   .Select-Choosen {
     border-radius: 3px;
-    background-color: #65bb9b; }
+    background-color: #dc8181; }
   .Select-Item {
     transition: background-color .2s ease; }
     .Select-Item:hover {
-      background-color: #26905c; }
+      background-color: #760c0c; }
 
 .selectAnimate-enter {
   opacity: 0.01;

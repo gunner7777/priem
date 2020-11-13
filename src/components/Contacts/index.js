@@ -18,7 +18,7 @@ const Contacts = () => {
       <div className='Flex Flex_AiFs'>
         <Cards>
           <CardsImg>
-            <img src='http://vgsha.info/images/stories/podrazdelenie/study/Starkova.jpg' alt='contacts' />
+            <img src='https://vgsha.info/wp-content/uploads/images/persons/marinina_ayu/marinina_ayu_1.jpg' alt='contacts' />
           </CardsImg>
           <CardsDesc>
             <Typography
@@ -30,19 +30,14 @@ const Contacts = () => {
               variant='text'
               tag='p'
               modClass='Typography_TextBold' >
-              Старкова Дарья Леонидовна
-            </Typography>
-            <Typography
-              variant='text'
-              tag='p' >
-              кандидат сельскохозяйственных наук, доцент
+              Маринина Анастасия Юрьевна
             </Typography>
           </CardsDesc>
         </Cards>
 
         <Cards>
           <CardsImg>
-            <img src='http://vgsha.info/images/stories/podrazdelenie/study/bydanova_ta.jpg' alt='contacts' />
+            <img src='https://vgsha.info/wp-content/uploads/images/persons/bydanova_ta/bydanova_ta.jpg' alt='contacts' />
           </CardsImg>
           <CardsDesc>
             <Typography
@@ -63,7 +58,7 @@ const Contacts = () => {
       <Typography
         variant='text'
         tag='p' >
-        Кабинет Б-308
+        Кабинет Б-104
       </Typography>
       <Typography
         variant='text'

@@ -6,17 +6,13 @@ export const enrolledInitialState = {
     "Специалитет",
     "СПО"
   ],
-  dataGrad: [
-    {
+  dataGrad: [{
       graduation: "Бакалавриат",
-      facultet: [
-        {
+      facultet: [{
           name: "Агрономический",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "bak-agro-o-b.json"
                 },
@@ -28,8 +24,7 @@ export const enrolledInitialState = {
             },
             {
               name: "Заочная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "bak-agro-z-b.json"
                 },
@@ -43,20 +38,16 @@ export const enrolledInitialState = {
         },
         {
           name: "Биологический",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
-                  name: "Бюджет",
-                  file: "bak-bio-o-b.json"
-                }
-              ]
+              price: [{
+                name: "Бюджет",
+                file: "bak-bio-o-b.json"
+              }]
             },
             {
               name: "Заочная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "bak-bio-z-b.json"
                 },
@@ -70,20 +61,16 @@ export const enrolledInitialState = {
         },
         {
           name: "Инженерный",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
-                  name: "Бюджет",
-                  file: "bak-ing-o-b.json"
-                }
-              ]
+              price: [{
+                name: "Бюджет",
+                file: "bak-ing-o-b.json"
+              }]
             },
             {
               name: "Заочная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "bak-ing-z-b.json"
                 },
@@ -97,24 +84,19 @@ export const enrolledInitialState = {
         },
         {
           name: "Экономический",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
-                  name: "Внебюджет",
-                  file: "bak-eco-o-vb.json"
-                }
-              ]
+              price: [{
+                name: "Внебюджет",
+                file: "bak-eco-o-vb.json"
+              }]
             },
             {
               name: "Заочная",
-              price: [
-                {
-                  name: "Внебюджет",
-                  file: "bak-eco-z-vb.json"
-                }
-              ]
+              price: [{
+                name: "Внебюджет",
+                file: "bak-eco-z-vb.json"
+              }]
             }
           ]
         }
@@ -122,23 +104,18 @@ export const enrolledInitialState = {
     },
     {
       graduation: "Магистратура",
-      facultet: [
-        {
+      facultet: [{
           name: "Агрономический",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
-                  name: "Бюджет",
-                  file: "mag-agro-o-b.json"
-                }
-              ]
+              price: [{
+                name: "Бюджет",
+                file: "mag-agro-o-b.json"
+              }]
             },
             {
               name: "Заочная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "mag-agro-z-b.json"
                 },
@@ -152,11 +129,9 @@ export const enrolledInitialState = {
         },
         {
           name: "Биологический",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "mag-bio-o-b.json"
                 },
@@ -165,16 +140,21 @@ export const enrolledInitialState = {
                   file: "mag-bio-o-vb.json"
                 }
               ]
+            },
+            {
+              name: "Очно-заочная",
+              price: [{
+                name: "Внебюджет",
+                file: "mag-bio-oz-vb.json"
+              }]
             }
           ]
         },
         {
           name: "Инженерный",
-          forma: [
-            {
+          forma: [{
               name: "Очная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "mag-ing-o-b.json"
                 },
@@ -186,10 +166,13 @@ export const enrolledInitialState = {
             },
             {
               name: "Заочная",
-              price: [
-                {
+              price: [{
                   name: "Бюджет",
                   file: "mag-ing-z-b.json"
+                },
+                {
+                  name: "Внебюджет",
+                  file: "mag-ing-z-vb.json"
                 }
               ]
             }
@@ -197,24 +180,19 @@ export const enrolledInitialState = {
         },
         {
           name: "Экономический",
-          forma: [
-            {
+          forma: [{
               name: "Очно-заочная",
-              price: [
-                {
-                  name: "Внебюджет",
-                  file: "mag-eco-o-vb.json"
-                }
-              ]
+              price: [{
+                name: "Внебюджет",
+                file: "mag-eco-oz-vb.json"
+              }]
             },
             {
               name: "Заочная",
-              price: [
-                {
-                  name: "Внебюджет",
-                  file: "mag-eco-z-vb.json"
-                }
-              ]
+              price: [{
+                name: "Внебюджет",
+                file: "mag-eco-z-vb.json"
+              }]
             }
           ]
         }
@@ -222,67 +200,54 @@ export const enrolledInitialState = {
     },
     {
       graduation: "Специалитет",
-      facultet: [
-        {
-          name: "Ветеринарной медицины",
-          forma: [
-            {
-              name: "Очная",
-              price: [
-                {
-                  name: "Бюджет",
-                  file: "spec-vet-o-b.json"
-                }
-              ]
-            },
-            {
-              name: "Очно-заочная",
-              price: [
-                {
-                  name: "Бюджет",
-                  file: "spec-vet-oz-b.json"
-                },
-                {
-                  name: "Внебюджет",
-                  file: "spec-vet-oz-vb.json"
-                }
-              ]
-            },
-            {
-              name: "Заочная",
-              price: [
-                {
-                  name: "Бюджет",
-                  file: "spec-vet-z-b.json"
-                },
-                {
-                  name: "Внебюджет",
-                  file: "spec-vet-z-vb.json"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      facultet: [{
+        name: "Ветеринарной медицины",
+        forma: [{
+            name: "Очная",
+            price: [{
+              name: "Бюджет",
+              file: "spec-vet-o-b.json"
+            }]
+          },
+          {
+            name: "Очно-заочная",
+            price: [{
+                name: "Бюджет",
+                file: "spec-vet-oz-b.json"
+              },
+              {
+                name: "Внебюджет",
+                file: "spec-vet-oz-vb.json"
+              }
+            ]
+          },
+          {
+            name: "Заочная",
+            price: [{
+                name: "Бюджет",
+                file: "spec-vet-z-b.json"
+              },
+              {
+                name: "Внебюджет",
+                file: "spec-vet-z-vb.json"
+              }
+            ]
+          }
+        ]
+      }]
     },
     {
       graduation: "СПО",
-      facultet: [
-        {
-          name: "СПО",
-          forma: [
-            {
-              name: "Очная",
-              price: [
-                {
-                  name: "Внебюджет",
-                  file: "spo-o-vb.json"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      facultet: [{
+        name: "СПО",
+        forma: [{
+          name: "Очная",
+          price: [{
+            name: "Внебюджет",
+            file: "spo-o-vb.json"
+          }]
+        }]
+      }]
     }
   ],
   currFacsSnapshot: [],
