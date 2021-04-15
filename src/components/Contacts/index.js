@@ -18,7 +18,7 @@ const Contacts = () => {
       <div className='Flex Flex_AiFs'>
         <Cards>
           <CardsImg>
-            <img src='https://vgsha.info/wp-content/uploads/images/persons/marinina_ayu/marinina_ayu_1.jpg' alt='contacts' />
+            <img src='https://vgsha.info/wp-content/uploads/images/persons/poturaeva_er/poturaeva_er.jpg' alt='contacts' />
           </CardsImg>
           <CardsDesc>
             <Typography
@@ -30,12 +30,12 @@ const Contacts = () => {
               variant='text'
               tag='p'
               modClass='Typography_TextBold' >
-              Маринина Анастасия Юрьевна
+              Потураева Екатерина Руслановна
             </Typography>
           </CardsDesc>
         </Cards>
 
-        <Cards>
+        {/* <Cards>
           <CardsImg>
             <img src='https://vgsha.info/wp-content/uploads/images/persons/bydanova_ta/bydanova_ta.jpg' alt='contacts' />
           </CardsImg>
@@ -52,7 +52,7 @@ const Contacts = () => {
               Быданова Татьяна Александровна
             </Typography>
           </CardsDesc>
-        </Cards>
+        </Cards> */}
       </div>
 
       <Typography

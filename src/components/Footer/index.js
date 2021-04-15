@@ -8,7 +8,7 @@ const Footer = () => {
       <Typography
         variant='text'
         tag='p'>
-        &copy; Вятская ГСХА
+        &copy; ФГБОУ ВО Вятский ГАТУ
       </Typography>
     </div>
   )
